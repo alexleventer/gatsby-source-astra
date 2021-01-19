@@ -19,7 +19,7 @@ exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNo
     password: options.dbPassword,
   });
   const collection = await astraClient.namespace(options.dbNamespace).collection(options.dbCollection);
-  const documents = await collection.find({id: {$exists: true}});
+  const documents = await collection.find();
 
   return Object.keys(documents).forEach(documentId =>
     createNode({
