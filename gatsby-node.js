@@ -1,7 +1,4 @@
-const fetch = require('node-fetch');
 const { createClient } = require('@astrajs/collections');
-
-exports.onPreInit = () => console.log("Loaded gatsby-starter-plugin");
 
 exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNodesByType}, options) => {
   const { createNode } = actions;
