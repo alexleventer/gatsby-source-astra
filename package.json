@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-source-astra",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexleventer/gatsby-source-astra.git"
+  },
+  "main": "index.js",
+  "author": "Alex Leventer",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexleventer/gatsby-source-astra/issues"
+  },
+  "homepage": "https://github.com/alexleventer/gatsby-source-astra#readme",
+  "dependencies": {
+    "@astrajs/collections": "^0.0.9",
+    "cross-fetch": "^3.0.5"
+  }
+}
