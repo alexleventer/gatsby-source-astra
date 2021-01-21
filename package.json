@@ -1,7 +1,7 @@
 {
   "name": "gatsby-source-astra",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pull data directly from your Astra database into Gatsby",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexleventer/gatsby-source-astra.git"
