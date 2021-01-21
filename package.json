@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/alexleventer/gatsby-source-astra#readme",
   "dependencies": {
-    "@astrajs/collections": "^0.0.9",
-    "cross-fetch": "^3.0.5"
+    "@astrajs/collections": "^0.0.9"
   }
 }
